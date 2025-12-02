@@ -1,0 +1,148 @@
+body {
+    font-family: 'Azeret Mono', monospace;
+    background: #FFFEEF;
+    padding: 30px;
+    color: #393030;
+    background-image: url(selected/Frame\ 7\ \(7\).png); /* background image */
+    background-size: cover;        /* makes it fill the whole screen */
+    background-repeat: no-repeat;  /* stops repeating */
+    background-position: center;   /* keeps the image centered */
+}
+
+/* Navigation */
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+    margin-bottom: 30px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #393030;
+    font-size: 16px;
+}
+
+.top-section {
+    display: flex;
+    justify-content: space-between;   /* pushes content to left and right */
+    align-items: center;               /* aligns them vertically */
+    width: 100%;
+}
+
+.text-block {
+    max-width: 60%;   /* keeps text from spreading too wide */
+}
+
+.profile-photo {
+    height: 600px;     
+    width: auto;
+    margin-top: 80px;
+    margin-left: 50px; /* space between text and image */
+}
+
+.content-wrapper {
+    max-width: 600px;      /* width of your content area */
+    margin: 0 auto;        /* THIS centers the whole block */
+    text-align: left;      /* keep text aligned left */
+}
+
+
+/* Headings */
+.heading {
+    font-family: 'Antonio', sans-serif;
+    font-size: 70px;
+    color: #6F5269;
+}
+
+.name-text {
+    font-family: 'Antonio', sans-serif;
+    font-size: 30px;
+    color: #6F5269;
+}
+
+.sub-head {
+    font-family: 'Antonio', sans-serif;
+    font-size: 45px;
+    margin-top: 40px;
+    color: #6F5269;
+}
+
+/* Body text */
+.body-text {
+    font-family: 'Azeret Mono', monospace;
+    font-size: 20px;
+    color: #393030;
+}
+
+.skills div {
+    margin-bottom: 8px;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);  /* 2 boxes per row */
+    gap: 30px;                                /* spacing between boxes */
+    max-width: 600px;                         /* optional: keeps layout neat */
+}
+
+
+/* Project rectangles */
+.project-box {
+    border: 1px solid #393030;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+.grey-box {
+    background: rgba(57, 48, 48, 0.09); /* 9% */
+}
+
+.pink-box {
+    background: rgba(170, 91, 203, 0.08); /* 8% */
+}
+
+.education-box {
+    width: 800px;    /* change to whatever size you want */
+    text-align: left;
+}
+
+/* Text */
+.project-text {
+    width: 45%;
+    float: left;
+}
+
+.project-title {
+    font-family: 'Antonio', sans-serif;
+    font-weight: bolder;
+    color: #6F5269;
+    font-size: 49px;
+}
+
+.project-desc {
+    font-size: 26px;
+    margin: 5px 0 0;
+}
+
+.project-image {
+    width: 50%;
+    height: auto;
+    margin-top: 15px;
+    border-radius: 4px;
+    float: right;
+}
+
+.project-images {
+    height: 500px;       /* size of scroll area */
+    overflow-y: hidden;  
+    overflow-x: scroll;  /* horizontal scroll direction */
+    white-space: nowrap; /* keep images in a single line */
+    margin-top: 20px;
+}
+
+.project-images img {
+    width: 50%;
+    margin-bottom: 10px;
+}
