@@ -3,7 +3,7 @@ body {
     background: #FFFEEF;
     padding: 30px;
     color: #393030;
-    background-image: url(selected/Frame\ 7\ \(7\).png); /* background image */
+    background-image: url(Frame\ 7\ \(7\).png); /* background image */
     background-size: cover;        /* makes it fill the whole screen */
     background-repeat: no-repeat;  /* stops repeating */
     background-position: center;   /* keeps the image centered */
@@ -42,7 +42,7 @@ body {
 }
 
 .content-wrapper {
-    max-width: 600px;      /* width of your content area */
+    max-width: 600px;      /* width of content area */
     margin: 0 auto;        /* THIS centers the whole block */
     text-align: left;      /* keep text aligned left */
 }
@@ -104,7 +104,7 @@ body {
 }
 
 .education-box {
-    width: 800px;    /* change to whatever size you want */
+    width: 800px;    
     text-align: left;
 }
 
